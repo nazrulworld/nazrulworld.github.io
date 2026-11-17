@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Md Nazrul Islam</title>
+  <meta name="description" content="Md Nazrul Islam: open-source developer working on FHIR and healthcare interoperability in Python and Java.">
+  <style>
+    :root {
+      --bg: #fbfaf8; --surface: #ffffff; --text: #1d1c1a; --muted: #5f5b55; --line: #e6e2dc;
+      --accent: #b4441f; --accent-soft: #f6e6df;
+      color-scheme: light dark;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #161514; --surface: #1f1e1c; --text: #ece8e2; --muted: #a9a39a; --line: #34312d;
+        --accent: #f08a62; --accent-soft: #3a2a23;
+      }
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0; background: var(--bg); color: var(--text);
+      font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    main { max-width: 760px; margin: 0 auto; padding: 56px 16px 40px; }
+    a { color: var(--accent); text-underline-offset: 3px; }
+    a:hover { text-decoration-thickness: 2px; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+    header h1 { font-size: clamp(2rem, 6vw, 2.75rem); line-height: 1.15; margin: 0 0 8px; letter-spacing: -0.02em; }
+    .role { font-size: 1.15rem; margin: 0 0 4px; }
+    .meta { color: var(--muted); margin: 0 0 20px; }
+    .links { display: flex; flex-wrap: wrap; gap: 8px 20px; padding: 0; margin: 0; list-style: none; }
+    section { margin-top: 48px; }
+    h2 {
+      font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--muted);
+      margin: 0 0 16px; font-weight: 600;
+    }
+    .intro p { margin: 0 0 12px; }
+    .projects { display: grid; gap: 14px; padding: 0; margin: 0; list-style: none; }
+    .project {
+      background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px;
+    }
+    .project h3 { margin: 0 0 4px; font-size: 1.1rem; }
+    .project h3 a { color: var(--text); text-decoration: none; }
+    .project h3 a:hover { color: var(--accent); }
+    .project p { margin: 0 0 10px; color: var(--muted); }
+    .tags { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 0.9rem; }
+    .lang {
+      background: var(--accent-soft); color: var(--text); border-radius: 999px; padding: 1px 10px; font-size: 0.8rem;
+    }
+    .earlier { padding-left: 1.1em; margin: 0; }
+    .earlier li { margin-bottom: 6px; }
+    .earlier span { color: var(--muted); }
+    footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Md Nazrul Islam</h1>
+    <p class="role">Open-source developer for healthcare interoperability</p>
+    <p class="meta">Copenhagen, Denmark · Zitelab ApS</p>
+    <ul class="links">
+      <li><a href="https://github.com/nazrulworld">GitHub</a></li>
+      <li><a href="https://nazrulworld.wordpress.com/">Blog</a></li>
+      <li><a href="https://x.com/nazrulworld">X (Twitter)</a></li>
+    </ul>
+  </header>
+
+  <section class="intro" aria-labelledby="about">
+    <h2 id="about">About</h2>
+    <p>
+      I build open-source tools that connect health technology and Python, centred on HL7&nbsp;FHIR: resource models,
+      FHIRPath, specification loaders, and a horizontally scalable validation service.
+    </p>
+  </section>
+
+  <section aria-labelledby="projects">
+    <h2 id="projects">Projects</h2>
+    <ul class="projects">
+      <li class="project">
+        <h3><a href="https://github.com/nazrulworld/fhir.resources">fhir.resources</a></h3>
+        <p>FHIR resources as Python models, for every FHIR release.</p>
+        <div class="tags">
+          <span class="lang">Python</span>
+          <a href="https://pypi.org/project/fhir.resources/">PyPI</a>
+          <a href="https://github.com/nazrulworld/fhir.resources">Source</a>
+        </div>
+      </li>
+      <li class="project">
+        <h3><a href="https://github.com/nazrulworld/fhir-core">fhir-core</a></h3>
+        <p>The core library for FHIR in Python, powered by Pydantic&nbsp;v2.</p>
+        <div class="tags">
+          <span class="lang">Python</span>
+          <a href="https://pypi.org/project/fhir-core/">PyPI</a>
+          <a href="https://github.com/nazrulworld/fhir-core">Source</a>
+        </div>
+      </li>
+      <li class="project">
+        <h3><a href="https://github.com/nazrulworld/fhirpath">fhirpath</a></h3>
+        <p>A FHIRPath implementation in Python.</p>
+        <div class="tags">
+          <span class="lang">Python</span>
+          <a href="https://pypi.org/project/fhirpath/">PyPI</a>
+          <a href="https://github.com/nazrulworld/fhirpath">Source</a>
+        </div>
+      </li>
+      <li class="project">
+        <h3><a href="https://github.com/nazrulworld/fhirspec">fhirspec</a></h3>
+        <p>Loads the FHIR specification for code generation and tooling.</p>
+        <div class="tags">
+          <span class="lang">Python</span>
+          <a href="https://pypi.org/project/fhirspec/">PyPI</a>
+          <a href="https://github.com/nazrulworld/fhirspec">Source</a>
+        </div>
+      </li>
+      <li class="project">
+        <h3><a href="https://nazrulworld.github.io/fhir-validation-service/">FHIR Validation Service</a></h3>
+        <p>A horizontally scalable FHIR validation service built with Vert.x, HAPI FHIR and PostgreSQL.</p>
+        <div class="tags">
+          <span class="lang">Java</span>
+          <a href="https://nazrulworld.github.io/fhir-validation-service/">User guide</a>
+          <a href="https://github.com/nazrulworld/fhir-validation-service">Source</a>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="earlier">
+    <h2 id="earlier">Earlier work</h2>
+    <ul class="earlier">
+      <li><a href="https://github.com/nazrulworld/plone.app.fhirfield">plone.app.fhirfield</a> and
+        <a href="https://github.com/nazrulworld/guillotina_fhirfield">guillotina_fhirfield</a>
+        <span>· FHIR fields for Plone and Guillotina</span></li>
+      <li><a href="https://github.com/nazrulworld/fhir.profiling">fhir.profiling</a>
+        <span>· profiling support for fhir.resources</span></li>
+      <li><a href="https://github.com/nazrulworld/heart">heart</a>
+        <span>· HEART (Health Relationship Trust) in Python</span></li>
+    </ul>
+  </section>
+
+  <footer>
+    More projects on <a href="https://github.com/nazrulworld?tab=repositories">GitHub</a>.
+  </footer>
+</main>
+</body>
+</html>
